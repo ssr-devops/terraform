@@ -3,8 +3,8 @@ resource "aws_instance" "example" {
     instance_type = "t3.micro"
 }
 
-resource "aws_security_group" "Allow-all" {
-    name = "Allow-all"
+resource "aws_security_group" "allow-all" {
+    name = "allow-all"
 
     egress {
         from_port        = 0
